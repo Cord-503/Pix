@@ -172,6 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CmdDrawPixel.cpp" />
+    <ClCompile Include="CmdDrawPixels.cpp" />
     <ClCompile Include="CmdSetColor.cpp" />
     <ClCompile Include="CmdSetResolution.cpp" />
     <ClCompile Include="CmdVarFloat.cpp" />
@@ -194,6 +195,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CmdDrawPixel.h" />
+    <ClInclude Include="CmdDrawPixels.h" />
     <ClInclude Include="CmdSetColor.h" />
     <ClInclude Include="CmdSetResolution.h" />
     <ClInclude Include="CmdVarFloat.h" />

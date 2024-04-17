@@ -1,3 +1,5 @@
 SetResolution(31, 40, 25, true)
 
+DrawPixels(1,2,1,3)
+
 
