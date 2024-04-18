@@ -5,6 +5,7 @@
 #include "CmdSetResolution.h"
 #include "CmdVarFloat.h"
 #include "CmdDrawPixels.h"
+#include "CmdDrawLine.h"
 
 CommandDictionary* CommandDictionary::Get()
 {
@@ -26,6 +27,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdDrawPixel>();
 	RegisterCommand<CmdSetColor>();
 	RegisterCommand<CmdDrawPixels>();
+	RegisterCommand<CmdDrawLine>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()
