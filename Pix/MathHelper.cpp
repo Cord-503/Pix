@@ -1,14 +1,19 @@
 #include "MathHelper.h"
 #include "math.h"
 
+bool MathHelper::CheckEqual(const float& a, const float& b)
+{
+	return fabsf(a - b) < 0.01;
+}
+
 float MathHelper::MagnitudeSquared(const Vector2& v)
 {
-	return v.x * v.x + v.y * v.y;
+	return v.x * v.x + v.y + v.y;
 }
 
 float MathHelper::MagnitudeSquared(const Vector3& v)
 {
-	return v.x * v.x + v.y * v.y + v.z * v.z;
+	return v.x * v.x + v.y + v.y + v.z * v.z;
 }
 
 float MathHelper::Magnitude(const Vector2& v)
@@ -43,9 +48,14 @@ float MathHelper::Dot(const Vector3& a, const Vector3& b)
 
 Vector3 MathHelper::Cross(const Vector3& a, const Vector3& b)
 {
-	return {
-		a.y * b.z - a.z * b.y,
-		a.z * b.x - a.x * b.z,
-		a.x * b.y - a.y * b.x
+	return { 
+		a.y * b.z - a.z * b.y, 
+		a.z * b.x - a.x * b.z, 
+		a.x * b.y - a.y * b.x 
 	};
+}
+
+float MathHelper::Lerp(const float& a, const float& b, const float& t)
+{
+	return a + (b - a) * t;
 }

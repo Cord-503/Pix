@@ -1,17 +1,24 @@
-C:\Users\HENRY\Desktop\Pix\Pix\CmdDrawLine.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\CmdDrawLine.obj
-C:\Users\HENRY\Desktop\Pix\Pix\CmdDrawPixel.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\CmdDrawPixel.obj
-C:\Users\HENRY\Desktop\Pix\Pix\CmdDrawPixels.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\CmdDrawPixels.obj
-C:\Users\HENRY\Desktop\Pix\Pix\CmdSetColor.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\CmdSetColor.obj
-C:\Users\HENRY\Desktop\Pix\Pix\CmdSetResolution.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\CmdSetResolution.obj
-C:\Users\HENRY\Desktop\Pix\Pix\CmdVarFloat.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\CmdVarFloat.obj
-C:\Users\HENRY\Desktop\Pix\Pix\CommandDictionary.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\CommandDictionary.obj
-C:\Users\HENRY\Desktop\Pix\Pix\Graphics.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\Graphics.obj
-C:\Users\HENRY\Desktop\Pix\Pix\MathHelper.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\MathHelper.obj
-C:\Users\HENRY\Desktop\Pix\Pix\PixEditor.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\PixEditor.obj
-C:\Users\HENRY\Desktop\Pix\Pix\Rasterizer.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\Rasterizer.obj
-C:\Users\HENRY\Desktop\Pix\Pix\ScriptParser.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\ScriptParser.obj
-C:\Users\HENRY\Desktop\Pix\Pix\TextEditor.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\TextEditor.obj
-C:\Users\HENRY\Desktop\Pix\Pix\VariableCache.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\VariableCache.obj
-C:\Users\HENRY\Desktop\Pix\Pix\Vector2.h;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\Vector2.obj
-C:\Users\HENRY\Desktop\Pix\Pix\Viewport.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\Viewport.obj
-C:\Users\HENRY\Desktop\Pix\Pix\WinMain.cpp;C:\Users\HENRY\Desktop\Pix\Pix\x64\Debug\WinMain.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\Clipper.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\Clipper.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdAddVertex.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdAddVertex.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdBeginDraw.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdBeginDraw.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdDrawPixel.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdDrawPixel.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdEndDraw.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdEndDraw.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdForLoop.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdForLoop.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdSetClipping.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdSetClipping.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdSetColor.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdSetColor.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdSetFillMode.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdSetFillMode.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdSetResolution.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdSetResolution.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdSetViewport.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdSetViewport.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdShowViewport.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdShowViewport.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CmdVarFloat.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CmdVarFloat.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\CommandDictionary.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\CommandDictionary.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\Graphics.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\Graphics.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\MathHelper.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\MathHelper.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\PixEditor.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\PixEditor.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\PrimitivesManager.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\PrimitivesManager.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\Rasterizer.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\Rasterizer.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\ScriptParser.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\ScriptParser.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\TextEditor.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\TextEditor.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\VariableCache.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\VariableCache.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\Viewport.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\Viewport.obj
+D:\DOCS & HOMEWORKS\Pix\Pix\WinMain.cpp;D:\DOCS & HOMEWORKS\Pix\Pix\x64\Debug\WinMain.obj
