@@ -176,6 +176,7 @@
     <ClCompile Include="Clipper.cpp" />
     <ClCompile Include="CmdAddVertex.cpp" />
     <ClCompile Include="CmdBeginDraw.cpp" />
+    <ClCompile Include="CmdDrawLine.cpp" />
     <ClCompile Include="CmdDrawPixel.cpp" />
     <ClCompile Include="CmdEndDraw.cpp" />
     <ClCompile Include="CmdForLoop.cpp" />
@@ -207,6 +208,7 @@
     <ClInclude Include="Clipper.h" />
     <ClInclude Include="CmdAddVertex.h" />
     <ClInclude Include="CmdBeginDraw.h" />
+    <ClInclude Include="CmdDrawLine.h" />
     <ClInclude Include="CmdDrawPixel.h" />
     <ClInclude Include="CmdEndDraw.h" />
     <ClInclude Include="CmdForLoop.h" />
@@ -221,6 +223,7 @@
     <ClInclude Include="CommandDictionary.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="Matrix4.h" />
     <ClInclude Include="PixEditor.h" />
     <ClInclude Include="PrimitivesManager.h" />
     <ClInclude Include="Rasterizer.h" />

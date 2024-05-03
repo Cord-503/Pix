@@ -1,10 +1,10 @@
 #include "CommandDictionary.h"
 
-#include "CmdDrawLine.h"
 #include "CmdDrawPixel.h"
 #include "CmdSetResolution.h"
 #include "CmdVarFloat.h"
 #include "CmdSetColor.h"
+#include "CmdDrawLine.h"
 #include "CmdForLoop.h"
 #include "CmdSetFillMode.h"
 
