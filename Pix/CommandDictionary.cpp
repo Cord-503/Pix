@@ -6,6 +6,7 @@
 #include "CmdSetColor.h"
 #include "CmdForLoop.h"
 #include "CmdSetFillMode.h"
+#include "CmdSetShadeMode.h"
 
 #include "CmdBeginDraw.h"
 #include "CmdVertex.h"
@@ -22,6 +23,10 @@
 #include "CmdSetCameraPosition.h"
 #include "CmdSetCullMode.h"
 #include "CmdEnableDepth.h"
+
+#include "CmdLights.h"
+#include "CmdMaterial.h"
+#include "CmdModel.h"
 
 #include "CmdPushTranslation.h"
 #include "CmdPushRotationX.h"
@@ -64,6 +69,22 @@ CommandDictionary::CommandDictionary()
 
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();
+	RegisterCommand<CmdModel>();
+
+	// Lights
+	RegisterCommand<CmdSetLightAmbient>();
+	RegisterCommand<CmdSetLightDiffuse>();
+	RegisterCommand<CmdSetLightSpecular>();
+	RegisterCommand<CmdAddDirectionalLight>();
+	RegisterCommand<CmdAddPointLight>();
+	RegisterCommand<CmdAddSpotLight>();
+
+	// Material
+	RegisterCommand<CmdSetMaterialAmbient>();
+	RegisterCommand<CmdSetMaterialDiffuse>();
+	RegisterCommand<CmdSetMaterialSpecular>();
+	RegisterCommand<CmdSetMaterialEmissive>();
+	RegisterCommand<CmdSetMaterialShininess>();
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();
@@ -74,6 +95,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
 	RegisterCommand<CmdSetCullMode>();
+	RegisterCommand<CmdSetShadeMode>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()
