@@ -1,6 +1,8 @@
 #include "Rasterizer.h"
 #include "DepthBuffer.h"
 #include "LightManager.h"
+#include "TextureManager.h"
+#include "PostProcessing.h"
 
 Rasterizer* Rasterizer::Get()
 {
@@ -34,14 +36,17 @@ ShadeMode Rasterizer::GetShadeMode()
 
 void Rasterizer::DrawPoint(int x, int y)
 {
-	X::DrawPixel(x, y, mColor);
+	if (!PostProcessing::Get()->DrawToRenderTarget(x, y, mColor))
+	{
+		X::DrawPixel(x, y, mColor);
+	}
 }
 
 void Rasterizer::DrawPoint(const Vertex& v)
 {
 	if (DepthBuffer::Get()->CheckDepthBuffer(v.pos.x, v.pos.y, v.pos.z))
 	{
-		mColor = v.color;
+		mColor = TextureManager::Get()->SampleColor(v.color);
 		if (mShadeMode == ShadeMode::Phong)
 		{
 			mColor *= LightManager::Get()->ComputeLightColor(v.posWorld, v.norm);
